@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qkf8Nx" name="Foundations of Art II" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" companyName="Bird Language">
+  <MAINGROUP id="Txtx1k" name="Foundations of Art II">
+    <GROUP id="{D19C5BE7-082D-304D-9946-2E8B782F370C}" name="Source">
+      <FILE id="QqLlap" name="CircularBuffer.cpp" compile="1" resource="0"
+            file="Source/CircularBuffer.cpp"/>
+      <FILE id="f5XGP6" name="CircularBuffer.h" compile="0" resource="0"
+            file="Source/CircularBuffer.h"/>
+      <FILE id="SdMeh9" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="tPiLkr" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mXUJyM" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="zj5LFX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="bHukaF" name="dry.wav" compile="0" resource="1" file="../../../Downloads/dry.wav"/>
+    <FILE id="RTFnFR" name="fart_1-20.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_1-20.mp3"/>
+    <FILE id="YCXDrz" name="fart_21-40.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_21-40.mp3"/>
+    <FILE id="vbbHEo" name="fart_41-60.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_41-60.mp3"/>
+    <FILE id="zounvB" name="fart_61-80.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_61-80.mp3"/>
+    <FILE id="mclVaK" name="fart_81-99.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_81-99.mp3"/>
+    <FILE id="JI24D3" name="fart_100.mp3" compile="0" resource="1" file="../../../Downloads/drive-download-20220228T020459Z-001/fart_100.mp3"/>
+    <FILE id="PU10XV" name="wet.wav" compile="0" resource="1" file="../../../Downloads/wet.wav"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Foundations of Art II"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Foundations of Art II"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
